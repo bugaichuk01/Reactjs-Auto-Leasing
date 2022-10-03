@@ -79,19 +79,6 @@
     margin-top: -9px;
     border-radius: 50%;
   }
-
-  &::-moz-range-track {
-    height: 2px;
-    background: #FF9514;
-  }
-
-  &::-moz-range-thumb {
-    background: #FF9514;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: none;
-  }
 }
 
 .desc {
