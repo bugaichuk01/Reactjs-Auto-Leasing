@@ -30,7 +30,7 @@ export const Input: React.FC<InputProps> = ({value, onChange, min, max, desc, in
                     disabled={loading}
                     className={styles.input}
                     type="text"
-                    value={value}
+                    value={initial ? initial : value}
                     onChange={handleChange}
                     onBlur={handleBlur}
                 />
